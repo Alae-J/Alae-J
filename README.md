@@ -71,9 +71,6 @@
 ### :dart: Weekly Coding Stats
 
 <!--START_SECTION:waka-->
-```txt
-Coming soon — set up WakaTime to track coding activity
-```
 <!--END_SECTION:waka-->
 
 ---
@@ -81,8 +78,14 @@ Coming soon — set up WakaTime to track coding activity
 ### ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-Coming soon — set up github-activity-readme action
 <!--END_SECTION:activity-->
+
+---
+
+### :sparkles: My Followers
+
+<!--START_SECTION:top-followers-->
+<!--END_SECTION:top-followers-->
 
 ---
 
