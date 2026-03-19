@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alae-J&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alae-J&layout=compact&exclude_repo=establishment-data-webfront,phrase-weaver-react,hikaya-bladi-stories&hide=python&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Top Languages" />
 </p>
 
 <p align="center">
