@@ -85,6 +85,110 @@
 ### :sparkles: My Followers
 
 <!--START_SECTION:top-followers-->
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/salma-elbakkouri">
+        <img src="https://avatars.githubusercontent.com/u/86151871?v=4" width="100px;" alt="salma-elbakkouri"/>
+      </a>
+      <br />
+      <a href="https://github.com/salma-elbakkouri">salma-elbakkouri</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Anass-Fajoui">
+        <img src="https://avatars.githubusercontent.com/u/94498374?v=4" width="100px;" alt="Anass-Fajoui"/>
+      </a>
+      <br />
+      <a href="https://github.com/Anass-Fajoui">Anass-Fajoui</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/MohamedKhalilAssa">
+        <img src="https://avatars.githubusercontent.com/u/123842557?v=4" width="100px;" alt="MohamedKhalilAssa"/>
+      </a>
+      <br />
+      <a href="https://github.com/MohamedKhalilAssa">MohamedKhalilAssa</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/WorkelCEO">
+        <img src="https://avatars.githubusercontent.com/u/131218974?v=4" width="100px;" alt="WorkelCEO"/>
+      </a>
+      <br />
+      <a href="https://github.com/WorkelCEO">WorkelCEO</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/youssef4-75">
+        <img src="https://avatars.githubusercontent.com/u/141209821?v=4" width="100px;" alt="youssef4-75"/>
+      </a>
+      <br />
+      <a href="https://github.com/youssef4-75">youssef4-75</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Othmane-Wina">
+        <img src="https://avatars.githubusercontent.com/u/159585124?v=4" width="100px;" alt="Othmane-Wina"/>
+      </a>
+      <br />
+      <a href="https://github.com/Othmane-Wina">Othmane-Wina</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/achrafbouiguigne">
+        <img src="https://avatars.githubusercontent.com/u/165178759?v=4" width="100px;" alt="achrafbouiguigne"/>
+      </a>
+      <br />
+      <a href="https://github.com/achrafbouiguigne">achrafbouiguigne</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/raguig">
+        <img src="https://avatars.githubusercontent.com/u/171050766?v=4" width="100px;" alt="raguig"/>
+      </a>
+      <br />
+      <a href="https://github.com/raguig">raguig</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ChahiriAbderrahmane">
+        <img src="https://avatars.githubusercontent.com/u/182661961?v=4" width="100px;" alt="ChahiriAbderrahmane"/>
+      </a>
+      <br />
+      <a href="https://github.com/ChahiriAbderrahmane">ChahiriAbderrahmane</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/yassinelamsaaf">
+        <img src="https://avatars.githubusercontent.com/u/185850782?v=4" width="100px;" alt="yassinelamsaaf"/>
+      </a>
+      <br />
+      <a href="https://github.com/yassinelamsaaf">yassinelamsaaf</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jawadelhani">
+        <img src="https://avatars.githubusercontent.com/u/185851194?v=4" width="100px;" alt="jawadelhani"/>
+      </a>
+      <br />
+      <a href="https://github.com/jawadelhani">jawadelhani</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/asmaSabr">
+        <img src="https://avatars.githubusercontent.com/u/185851237?v=4" width="100px;" alt="asmaSabr"/>
+      </a>
+      <br />
+      <a href="https://github.com/asmaSabr">asmaSabr</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/itsMhido">
+        <img src="https://avatars.githubusercontent.com/u/186638326?v=4" width="100px;" alt="itsMhido"/>
+      </a>
+      <br />
+      <a href="https://github.com/itsMhido">itsMhido</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Abdellah0x1">
+        <img src="https://avatars.githubusercontent.com/u/187171632?v=4" width="100px;" alt="Abdellah0x1"/>
+      </a>
+      <br />
+      <a href="https://github.com/Abdellah0x1">Abdellah0x1</a>
+    </td>
+  </tr>
+</table>
 <!--END_SECTION:top-followers-->
 
 ---
