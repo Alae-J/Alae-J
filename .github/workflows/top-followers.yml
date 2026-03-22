@@ -22,12 +22,12 @@ jobs:
 
           token = os.environ.get("GH_TOKEN", "")
           req = urllib.request.Request(
-              "https://api.github.com/users/Alae-J/followers?per_page=14",
+              "https://api.github.com/users/Alae-J/followers?per_page=4",
               headers={"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
           )
           users = json.loads(urllib.request.urlopen(req).read())
 
-          cols = 7
+          cols = 4
           rows, row = [], []
           for u in users:
               login, avatar = u["login"], u["avatar_url"]
