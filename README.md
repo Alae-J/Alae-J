@@ -58,30 +58,6 @@
 
 ---
 
-## 🧭 What I'm Learning Now
-
-- Advanced React patterns + clean front-end architecture
-- Backend APIs with Spring Boot and authentication
-- Unity simulation design + VR environments
-- UI prototyping with Figma
-- Japanese language 🇯🇵
-
----
-
-### :dart: Weekly Coding Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
----
-
-### ⚡ Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
 ### :sparkles: My Recent Followers
 
 <!--START_SECTION:top-followers-->
