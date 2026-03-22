@@ -1,0 +1,67 @@
+name: Update Top Followers
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-followers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate followers table and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'PYEOF'
+          import json, re, urllib.request, os
+
+          token = os.environ.get("GH_TOKEN", "")
+          req = urllib.request.Request(
+              "https://api.github.com/users/Alae-J/followers?per_page=14",
+              headers={"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
+          )
+          users = json.loads(urllib.request.urlopen(req).read())
+
+          cols = 7
+          rows, row = [], []
+          for u in users:
+              login, avatar = u["login"], u["avatar_url"]
+              cell = (
+                  f'    <td align="center">\n'
+                  f'      <a href="https://github.com/{login}">\n'
+                  f'        <img src="{avatar}" width="100px;" alt="{login}"/>\n'
+                  f'      </a>\n'
+                  f'      <br />\n'
+                  f'      <a href="https://github.com/{login}">{login}</a>\n'
+                  f'    </td>'
+              )
+              row.append(cell)
+              if len(row) == cols:
+                  rows.append(row)
+                  row = []
+          if row:
+              rows.append(row)
+
+          table = "<table>\n"
+          for r in rows:
+              table += "  <tr>\n" + "\n".join(r) + "\n  </tr>\n"
+          table += "</table>"
+
+          with open("README.md", "r") as f:
+              content = f.read()
+          pattern = r"<!--START_SECTION:top-followers-->.*?<!--END_SECTION:top-followers-->"
+          replacement = f"<!--START_SECTION:top-followers-->\n{table}\n<!--END_SECTION:top-followers-->"
+          content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+          with open("README.md", "w") as f:
+              f.write(content)
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Update top followers"
+          git push
