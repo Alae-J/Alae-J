@@ -82,7 +82,7 @@
 
 ---
 
-### :sparkles: My Followers
+### :sparkles: My Recent Followers
 
 <!--START_SECTION:top-followers-->
 <table>
